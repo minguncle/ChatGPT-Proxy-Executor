@@ -1,0 +1,14 @@
+{
+  "api_keys": [
+    {
+      "key": "YOUR_API_KEY",
+      "type": ["gpt-3.5-turbo","gpt-4"],
+      "remark": ""
+    }
+  ],
+  "executor_name": "japanese-node-1",
+  "report_enable" : true,
+  "listen_addr": "127.0.0.1:8090",
+  "report_duration": 30,
+  "scheduler_center": "http://127.0.0.1:8081/register"
+}
